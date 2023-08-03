@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Celcius {
+    public static void main(String[] args) {
+Scanner input = new Scanner (System.in);
+double c,f,r;
+
+System.out.println("===============================================");
+System.out.println("aplikasi konversi celcius");
+System.out.println("===============================================");
+
+System.out.println("Masukan Suhu : ");
+c= input.nextDouble();
+
+f= (9.0/5.0*c)+32;
+r= c*(4.0/5.0);
+
+System.out.println("Hasil Konversi Adalah : ");
+System.out.println("Fahrenheit : "+f+" F");
+System.out.println("Reamur : "+r+" R");
+
+}
+}
+
+    
+    
+
+

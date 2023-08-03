@@ -1,0 +1,2 @@
+Komponen
+Hitung_AX
